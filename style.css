@@ -1,0 +1,68 @@
+@media screen and(min-width:320px)and (max-width:480px) {
+    .container {
+        align-items: flex-start;
+    }
+
+    .form-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: linear-gradient(#281EFF, #2DFF8C);
+    color: white;
+}
+
+.child-1 {
+    display: contents;
+
+}
+
+button {
+    padding: 0px;
+    max-height: 29px;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 6.5rem;
+    margin: 30px;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+    margin-top: -15px;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.5rem;
+    margin-bottom: 50px;
+}
+
+/*form*/
+
+.child-form {
+    margin: 10px;
+    display: flex;
+}
+
+
+.fname,
+.email {
+    border: solid 1px white;
+    background-color: #F6F6F624;
+
+}
